@@ -43,7 +43,7 @@
   width: 80% !important;
 }
 .row.category-list-row {
-  flex-wrap: nowrap;
+  /* flex-wrap: nowrap; */
   align-items: center;
 }
 

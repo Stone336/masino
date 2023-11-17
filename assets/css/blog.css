@@ -20,13 +20,16 @@ li.product-item a {
 .popular-posts .category-title {
   margin-top: 40px;
 }
-.popular-posts-type-main {
+.popular-posts-type-main a {
+  text-decoration: none;
   display: flex;
   justify-content: space-between;
 }
 .popular-posts-type-right h4 {
   font-weight: 500;
   font-size: 16px;
+  color: #111111;
+  margin-right: 40px;
 }
 .popular-posts-type-right p {
   color: #999999;
