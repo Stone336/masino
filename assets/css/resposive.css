@@ -1,5 +1,5 @@
 /* ============================================ */
-@media (min-width: 480px) and (max-width: 578px) {
+/* @media (min-width: 480px) and (max-width: 578px) {
   .header-main-list-icons ul li {
     font-size: 14px;
   }
@@ -38,9 +38,9 @@
     left: 100px !important;
     top: 3770px !important;
   }
-}
+} */
 /* ================================================= */
-@media (max-width: 740px) {
+/* @media (max-width: 740px) {
   .header-main {
     padding: 0;
   }
@@ -191,10 +191,10 @@
   input[type="email"] {
     width: 400px;
   }
-}
+} */
 
 /* =========================================== */
-@media (max-width: 1222px) {
+/* @media (max-width: 1222px) {
   .header-main-list-menu ul {
     margin-left: 50px;
   }
@@ -229,9 +229,9 @@
   .col.footer-about {
     margin-top: -23px;
   }
-}
+} */
 /* =========================================== */
-@media (max-width: 1440px) {
+/* @media (max-width: 1440px) {
   .banner {
     height: 700px;
   }
@@ -257,9 +257,9 @@
     top: 3120px;
     left: 185px;
   }
-}
+} */
 /* ======================================== */
-@media (max-width: 1117px) {
+/* @media (max-width: 1117px) {
   .header-main-list-menu ul {
     margin-left: -15px !important;
   }
@@ -307,9 +307,9 @@
     top: 2675px !important;
     left: 150px !important;
   }
-}
+} */
 /* +============================ */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .banner-text-overlay h2 {
     font-size: 20px !important;
   }
@@ -394,10 +394,10 @@
     padding-top: 15.5px;
     padding-bottom: 15.5px;
   }
-}
+} */
 /* ======================= */
-@media (max-width: 425px) {
+/* @media (max-width: 425px) {
   .banner .banner-text-overlay {
     top: 378px;
   }
-}
+} */

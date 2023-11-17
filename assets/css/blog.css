@@ -1,0 +1,80 @@
+.category-title h2 {
+  font-weight: 500;
+  font-size: 18px;
+}
+ul#blog-list {
+  list-style: none;
+  padding-left: 0;
+  padding-bottom: 40px;
+  margin-top: 30px;
+  border-bottom: 1px solid #ebebeb;
+}
+li.product-item {
+  margin-top: 15px;
+}
+li.product-item a {
+  color: #555555;
+  font-weight: 400;
+  font-size: 16px;
+}
+.popular-posts .category-title {
+  margin-top: 40px;
+}
+.popular-posts-type-main {
+  display: flex;
+  justify-content: space-between;
+}
+.popular-posts-type-right h4 {
+  font-weight: 500;
+  font-size: 16px;
+}
+.popular-posts-type-right p {
+  color: #999999;
+  font-weight: 400;
+  font-size: 12px;
+}
+.popular-posts-type {
+  margin-top: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ebebeb;
+}
+.popular-posts-type-main {
+  margin-bottom: 20px;
+}
+
+.tags-btn {
+  border-radius: 5px;
+  border: none;
+  background-color: #f5f5f5;
+  color: #555555;
+  padding: 7.5px 15px;
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+}
+.col-2.blog-main-col-left {
+  width: 20% !important;
+}
+button.tags-btn.product-type-tags {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.tags-btn:hover {
+  background-color: #111111;
+  color: #ffffff;
+}
+.blog-main-item-title-bottom-shop {
+  text-transform: uppercase;
+  color: #999999;
+  font-weight: 500;
+  font-size: 12px;
+}
+span.blog-main-item-title-bottom-page-shop {
+  margin-right: 15px;
+}
+.banner-left-text {
+  position: absolute;
+  top: 120px;
+  left: 80px;
+  width: auto;
+}

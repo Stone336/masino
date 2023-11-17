@@ -133,22 +133,22 @@ ul.navbar-nav.justify-content-end.flex-grow-1.pe-3 {
 /* ==================================== BANNER ====================================== */
 
 .banner {
+  position: relative;
   width: 100%;
   height: 900px;
   margin-top: 150px;
 }
 
 .banner .imgbanner {
-  position: relative;
+  position: absolute;
   max-width: 100%;
-  float: right;
+  right: 0;
 }
 
 .banner .banner-text-overlay {
   position: absolute;
-  top: 380px;
-  left: 320px;
-  width: 40%;
+  top: 235px;
+  margin-left: 320px;
   color: #111111;
   padding: 20px;
 }
@@ -176,7 +176,7 @@ ul.navbar-nav.justify-content-end.flex-grow-1.pe-3 {
 
 .banner .imgcurrent {
   position: absolute;
-  top: 870px;
+  top: 700px;
   padding-left: 50px;
 }
 
@@ -188,6 +188,8 @@ ul.navbar-nav.justify-content-end.flex-grow-1.pe-3 {
 
 .content {
   padding-top: 88px;
+  height: 165vh;
+  position: relative;
 }
 
 .content-title {
@@ -202,7 +204,7 @@ ul.navbar-nav.justify-content-end.flex-grow-1.pe-3 {
 }
 
 .content-title-left {
-  position: relative;
+  position: absolute;
 }
 
 .content-title-left::after {
@@ -216,7 +218,8 @@ ul.navbar-nav.justify-content-end.flex-grow-1.pe-3 {
 }
 
 .content-title-right {
-  float: right;
+  position: absolute;
+  right: 0;
 }
 
 .content-title-right ul {
@@ -240,7 +243,7 @@ ul.navbar-nav.justify-content-end.flex-grow-1.pe-3 {
 }
 
 .row.row-cols-4 {
-  margin-top: 38px;
+  margin-top: 90px;
 }
 
 .row-cols-4 .col img {
@@ -300,7 +303,7 @@ input[id="inlineRadio3"]:checked {
 }
 
 .content-banner-right {
-  position: relative;
+  position: absolute;
 }
 .content-banner-right img,
 .content-banner-two-left img {
@@ -309,8 +312,8 @@ input[id="inlineRadio3"]:checked {
 
 .content-banner-left {
   position: absolute;
-  left: 1055px;
-  top: 1940px;
+  right: 115px;
+  top: 900px;
   text-align: right;
 }
 
@@ -352,15 +355,17 @@ input[id="inlineRadio3"]:checked {
 .content-banner-two-left {
   text-align: right;
   order: 1;
-  position: relative;
+  position: absolute;
+  top: 800px;
 }
 
 .content-banner-two-right {
   order: 2;
   z-index: 10;
   position: absolute;
-  top: 3300px;
-  left: 425px;
+  top: 930px;
+  left: 125px;
+  /* width: 100%; */
 }
 
 .content-banner-two-right button {

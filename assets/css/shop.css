@@ -232,6 +232,9 @@ input[id="listRadio6"]:checked {
   background-color: #a9a9a9;
   border-color: #111111;
 }
+.row.row-cols-4 {
+  margin-top: 20px;
+}
 
 input[id="listRadio7"] {
   background-color: #ea8777;
@@ -353,14 +356,17 @@ input[id="defaultCheck1"]:checked {
 .banner-left {
   margin-top: 60px;
   position: relative;
-  width: 110%;
-  height: 17%;
+  width: 100%;
+}
+.banner-left img {
+  width: 100%;
 }
 
 .banner-left-text {
   position: absolute;
-  top: 125px;
-  left: 65px;
+  top: 80px;
+  left: 37px;
+  width: auto;
 }
 
 .banner-left-text h5 {
@@ -577,8 +583,4 @@ input[id="shopRadio3"]:checked {
 .progress-bar {
   width: 50%;
   background-color: #111111 !important;
-}
-
-/* ===============RESPONSIVE=================== */
-@media screen and (max-width: 1809px) {
 }
