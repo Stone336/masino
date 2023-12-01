@@ -1,403 +1,46 @@
-/* ============================================ */
-/* @media (min-width: 480px) and (max-width: 578px) {
-  .header-main-list-icons ul li {
-    font-size: 14px;
+/* Mobile */
+@media (max-width: 739px) {
+  .header-main-list-menu ul {
+    display: none;
   }
-  .form-control {
-    font-size: 12px !important;
-  }
-  .navbar-toggler-icon {
-    width: 15px !important;
+  input.form-control.me-2 {
+    display: block;
   }
   button.navbar-toggler {
-    padding: 0 5px;
+    display: block;
   }
-  .banner .imgcurrent {
-    top: 500px !important;
-    width: 15%;
+  button.btn-outline-success {
+    background-color: #111111;
+    border-radius: 20px;
   }
-  .banner .banner-text-overlay {
-    top: 600px !important;
-    left: 50px !important;
-  }
-  .banner {
-    height: 660px !important;
-  }
-  .banner-text-overlay h2 {
-    font-size: 25px !important;
-  }
-  .banner-text-overlay button {
-    font-size: 12px !important;
-    margin-top: 15px !important;
-  }
-  .content-banner-left {
-    left: 100px !important;
-    top: 2200px !important;
-  }
-  .content-banner-two-right {
-    left: 100px !important;
-    top: 3770px !important;
-  }
-} */
-/* ================================================= */
-/* @media (max-width: 740px) {
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
   .header-main {
     padding: 0;
   }
-  .header-main-list-menu ul {
-    display: none;
-  }
-  input.form-control.me-2 {
-    display: block;
-  }
-  button.navbar-toggler {
-    display: block;
-  }
-  .content-banner-left {
-    left: 200px;
-    top: 2330px;
-    text-align: center;
-  }
-  button[type="submit"] {
-    background-color: #555555;
-    padding: 5px 20px;
-  }
-  .banner .imgcurrent {
-    top: 580px;
-  }
-  .banner .banner-text-overlay {
-    top: 720px;
-    left: 100px;
-    width: 80%;
-  }
-  .banner-text-overlay p {
-    font-size: 14px;
-  }
-  .banner-text-overlay h2 {
-    font-size: 32px;
-  }
-  .banner-text-overlay button {
-    font-size: 14px;
-    margin-top: 20px;
-  }
-  .banner {
-    height: 800px;
-  }
-  .content {
-    padding-top: 20px;
-  }
-  .content-title-left h3 {
-    font-size: 20px;
-  }
-  .content-title-right ul li a {
-    font-size: 12px;
-  }
-  .content-title-right ul {
-    width: 270px;
-  }
-  .row-cols-4 > * {
-    width: 50% !important;
-  }
-  .row-cols-4 .col h3 {
-    font-size: 10px;
-  }
-  .row-cols-4 .col p {
-    font-size: 12px;
-    margin-bottom: 5px;
-  }
-  .form-check.form-check-inline {
-    font-size: 15px;
-  }
-  .content-banner {
-    margin-top: 50px;
-    margin-bottom: 240px;
-  }
-  .content-banner-left h3 {
-    font-size: 25px;
-  }
-  .content-banner-left button {
-    font-size: 11px;
-    margin-top: 0;
-  }
-  .content-banner-two {
-    margin-top: 50px;
-    margin-bottom: 240px;
-  }
-  .content-banner-two-right {
-    left: 200px;
-    top: 3900px;
-    text-align: center;
-  }
-  .content-banner-two-right h3 {
-    font-size: 25px;
-  }
-  .content-banner-two-right button {
-    font-size: 11px;
-    margin-top: 0;
-  }
-  .row.blog-main {
-    display: block;
-  }
-  .blog-title h3 {
-    font-size: 20px;
-  }
-  .blog-main-item-title-categories {
-    font-size: 10px;
-  }
-  .blog-main-item-title-top {
-    font-size: 16px;
-  }
-  .blog-main-item-title-main {
-    font-size: 13px;
-    margin-bottom: 10px;
-  }
-  .blog-main-item-title-bottom {
-    font-size: 12px;
-  }
-  .footer {
-    margin-top: 50px;
-  }
-  .footer-title {
-    padding-top: 50px;
-  }
-  .row.footer-title {
-    display: block;
-  }
-  .footer-about {
+  img.navbar-brand {
     margin-right: 0;
   }
-  .subscription-form {
-    padding-bottom: 25px;
+  i.fa-solid.fa-angle-down,
+  i.fa-solid.fa-exclamation {
+    font-size: 10px;
   }
-  .footer-copy-right p {
-    font-size: 12px;
-    margin-top: 5px;
-  }
-  .footer-copy-left ul li a {
-    font-size: 12px;
-  }
-  .footer-copy-left {
-    width: 50%;
-  }
-  .footer-about-list li a,
-  .payment-methods span,
-  .footer-category ul li a,
-  .footer-service ul li a,
-  .footer-newsletter span,
-  .subscription-form input,
-  .subscription-form button {
-    font-size: 12px;
-  }
-  input[type="email"] {
-    width: 400px;
-  }
-} */
-
-/* =========================================== */
-/* @media (max-width: 1222px) {
   .header-main-list-menu ul {
-    margin-left: 50px;
-  }
-  .banner .imgbanner {
-    max-width: 74% !important;
-  }
-  .banner .banner-text-overlay {
-    left: 63px !important;
-    top: 315px !important;
-  }
-  .banner-text-overlay h2 {
-    font-size: 30px !important;
-  }
-  .content-banner-left h3 {
-    font-size: 30px !important;
-  }
-  .content-banner-left {
-    left: 640px !important;
-    top: 1680px !important;
-  }
-  .content-banner-right img,
-  .content-banner-two-left img {
-    width: 80% !important;
-  }
-  .content-banner-two-right {
-    top: 2865px !important;
-    left: 160px !important;
-  }
-  .footer-about {
-    margin-right: 80px;
-  }
-  .col.footer-about {
-    margin-top: -23px;
-  }
-} */
-/* =========================================== */
-/* @media (max-width: 1440px) {
-  .banner {
-    height: 700px;
-  }
-  .banner .imgbanner {
-    max-width: 67%;
-  }
-  .banner .banner-text-overlay {
-    top: 330px;
-    left: 183px;
-    width: 50%;
-  }
-  .banner-text-overlay h2 {
-    font-size: 35px;
-  }
-  .banner .imgcurrent {
-    top: 720px;
-  }
-  .content-banner-left {
-    left: 810px;
-    top: 1765px;
-  }
-  .content-banner-two-right {
-    top: 3120px;
-    left: 185px;
-  }
-} */
-/* ======================================== */
-/* @media (max-width: 1117px) {
-  .header-main-list-menu ul {
-    margin-left: -15px !important;
-  }
-  img.imgcurrent {
-    width: 9%;
-  }
-  .banner .imgcurrent {
-    top: 620px !important;
+    margin-left: 0;
   }
   .header-main-list-menu ul li a {
-    font-size: 12px;
+    font-size: 10px;
   }
   .header-main-list-icons ul li {
-    font-size: 16px;
+    font-size: 13px;
   }
-  .banner-text-overlay p {
-    font-size: 12px;
+}
+
+/* PC */
+@media (min-width: 1024px) {
+  .navbar.bg-body-tertiary .container-fluid {
+    padding: 0 25px;
   }
-  .banner .banner-text-overlay {
-    top: 290px !important;
-  }
-  .banner-text-overlay h2 {
-    font-size: 25px !important;
-  }
-  .banner-text-overlay button,
-  .content-banner-two-right button {
-    font-size: 14px;
-    margin-top: 30px;
-  }
-  .content-banner-left h3 {
-    font-size: 25px !important;
-  }
-  .content-banner-left button {
-    font-size: 14px;
-    margin-top: 25px;
-  }
-  .content-banner-right img,
-  .content-banner-two-left img {
-    width: 70% !important;
-  }
-  .content-banner-two-right h3 {
-    font-size: 25px;
-  }
-  .content-banner-two-right {
-    top: 2675px !important;
-    left: 150px !important;
-  }
-} */
-/* +============================ */
-/* @media (max-width: 768px) {
-  .banner-text-overlay h2 {
-    font-size: 20px !important;
-  }
-  .banner .banner-text-overlay {
-    top: 235px !important;
-  }
-  .banner .imgcurrent {
-    top: 485px !important;
-  }
-  .banner {
-    height: 425px;
-  }
-  .content-title-left h3 {
-    font-size: 25px;
-  }
-  .content-title-right ul li a {
-    font-size: 12px;
-  }
-  .content-title-right ul {
-    width: 300px;
-  }
-  .row-cols-4 .col h3,
-  .row-cols-4 .col p {
-    font-size: 12px;
-  }
-  .form-check.form-check-inline {
-    font-size: 16px;
-  }
-  .content-banner-left {
-    left: 453px !important;
-    top: 1219px !important;
-  }
-  .content-banner-left h3 {
-    font-size: 20px !important;
-  }
-  .content-banner-left button {
-    font-size: 12px;
-  }
-  .header-main-list-menu ul {
-    display: none;
-  }
-  input.form-control.me-2 {
-    display: block;
-  }
-  button.navbar-toggler {
-    display: block;
-  }
-  .content-banner-two-right {
-    top: 2133px !important;
-    left: 67px !important;
-  }
-  .content-banner-two-right h3 {
-    font-size: 20px;
-  }
-  .content-banner-two-right button {
-    font-size: 12px;
-    margin-top: 25px;
-  }
-  input[type="email"] {
-    width: 550px;
-  }
-  .footer-about-list li a,
-  .payment-methods span,
-  .footer-category ul li a,
-  .footer-service ul li a,
-  .footer-newsletter span,
-  .subscription-form button,
-  .footer-copy-right,
-  .footer-copy-left ul li a {
-    font-size: 12px;
-  }
-  .subscription-form input {
-    font-size: 14px;
-  }
-  ul.subscription-icons li {
-    margin: 10px 25px 10px 0;
-  }
-  .footer-copy-left {
-    width: 50%;
-  }
-  .footer-copy {
-    padding-top: 15.5px;
-    padding-bottom: 15.5px;
-  }
-} */
-/* ======================= */
-/* @media (max-width: 425px) {
-  .banner .banner-text-overlay {
-    top: 378px;
-  }
-} */
+}

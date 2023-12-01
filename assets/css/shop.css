@@ -1,11 +1,12 @@
 /* <!-- =========================BACK GROUND================ --> */
 
 .container-shop {
-  margin: 0 160px;
+  margin: 0 auto;
+  max-width: 1600px;
 }
 
 .background {
-  margin-top: 120px;
+  margin-top: 148px;
   position: relative;
 }
 
@@ -39,16 +40,35 @@
   margin-top: 60px;
 }
 
-.col-9 {
-  width: 80% !important;
+.row .col-9 {
+  width: 79%;
+}
+.row .col-3 {
+  width: 18%;
 }
 .row.category-list-row {
-  /* flex-wrap: nowrap; */
   align-items: center;
 }
-
+.row .col-xl-2 {
+  flex: 0 0 auto;
+  width: 14.285%;
+}
 .category-list-col {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+.image-container {
   position: relative;
+}
+
+.image-container img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .myButton {
@@ -91,7 +111,7 @@
   font-size: 18px;
 }
 
-.col-2.category-main-col-left {
+.col-3.category-main-col-left {
   margin-right: 3%;
 }
 /* =================================== */
@@ -133,6 +153,7 @@
 
 .price-filter {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -364,8 +385,8 @@ input[id="defaultCheck1"]:checked {
 
 .banner-left-text {
   position: absolute;
-  top: 80px;
-  left: 37px;
+  top: 123px;
+  left: 64px;
   width: auto;
 }
 
@@ -396,8 +417,8 @@ span.banner-left-text-top {
 }
 
 span.banner-left-text-bottom {
-  top: 115px;
-  left: -15%;
+  top: 110px;
+  left: -17%;
   width: 135%;
   position: absolute;
 }
@@ -583,4 +604,53 @@ input[id="shopRadio3"]:checked {
 .progress-bar {
   width: 50%;
   background-color: #111111 !important;
+}
+
+/* =================REPONSIVE=================== */
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+  .category-main .row {
+    padding: 0 50px;
+  }
+  .row .col-xl-2 {
+    flex: 0 0 auto;
+    width: 25%;
+    margin-bottom: 25px;
+  }
+  .row.category-list-row {
+    align-items: center;
+    padding: 0 50px;
+  }
+  .col-9.category-main-col-right .row.row-cols-4 .col {
+    width: 50%;
+  }
+  .banner-left-text h5 {
+    font-size: 25px;
+    height: 35px;
+  }
+  .banner-left-text {
+    top: 44px;
+    left: 19px;
+  }
+  .banner-left-text .banner-left-text-top {
+    font-size: 5px;
+  }
+  .banner-left-text .banner-left-text-bottom {
+    font-size: 8px;
+  }
+  span.banner-left-text-bottom {
+    top: 57px;
+    left: -20%;
+  }
+}
+/* PC */
+@media (min-width: 1024px) {
+  .container-shop {
+    padding: 0 100px;
+  }
+  .banner-left-text {
+    top: 90px;
+    left: 30px;
+  }
 }

@@ -1,3 +1,31 @@
+.banner-left-text-shop {
+  position: absolute;
+  top: 140px;
+  left: 90px;
+  width: auto;
+}
+.banner-left-text-shop h5 {
+  font-weight: 700;
+  font-size: 64px;
+  color: #ffffff;
+  margin: 0;
+  height: 70px;
+}
+
+.banner-left-text-shop .banner-left-text-top {
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 3.5px;
+}
+
+.banner-left-text-shop .banner-left-text-bottom {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+
 .category-title h2 {
   font-weight: 500;
   font-size: 18px;
@@ -29,7 +57,6 @@ li.product-item a {
   font-weight: 500;
   font-size: 16px;
   color: #111111;
-  margin-right: 40px;
 }
 .popular-posts-type-right p {
   color: #999999;
@@ -84,4 +111,12 @@ span.blog-main-item-title-bottom-page-shop {
 .blog-main-item a {
   text-decoration: none;
   color: #212529;
+}
+/* PC */
+@media (min-width: 1024px) {
+  .banner-left-text-shop {
+    position: absolute;
+    top: 110px;
+    left: 40px;
+  }
 }
