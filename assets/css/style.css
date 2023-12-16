@@ -903,10 +903,10 @@ ul.subscription-icons li a {
   .content-title-right ul li a {
     font-size: 16px;
   }
-  .content {
-    height: 200vh;
+  /* .content {
+    height: 148vh;
     max-height: 100%;
-  }
+  } */
   .content-banner-left h3 {
     font-size: 25px;
   }
@@ -919,7 +919,7 @@ ul.subscription-icons li a {
     top: 120px;
   }
   .content-banner-two-left {
-    top: 682px;
+    top: 563px;
   }
   .content-banner-two-right h3 {
     font-size: 25px;
@@ -929,7 +929,7 @@ ul.subscription-icons li a {
     margin-top: 35px;
   }
   .content-banner-two-right {
-    top: 820px;
+    top: 690px;
     left: 40px;
   }
   .blog-title h3 {

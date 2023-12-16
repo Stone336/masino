@@ -150,3 +150,122 @@ select.form-select {
 input.form-control {
   border-radius: 30px;
 }
+.page-cart-table-left-center-button {
+  margin-top: 20px;
+  background-color: #111111;
+  text-align: center;
+  border-radius: 30px;
+  padding: 17px 0;
+}
+.page-cart-table-left-center-button button {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15.94px;
+  color: #ffffff;
+  background-color: #111111;
+  border: none;
+}
+.page-cart-table-left-center-text {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #dedede;
+}
+.page-cart-table-left-center-text-correct {
+  background-color: #dcf0d8;
+}
+.page-cart-table-left-center-text-correct p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23.12px;
+  color: #1e882f;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.page-cart-table-left-center-text-correct li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23.12px;
+  color: #1e882f;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 16px;
+}
+.page-cart-table-left-center-text-error {
+  margin-top: 20px;
+  background-color: #fadfdf;
+}
+.page-cart-table-left-center-text-error {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23.12px;
+  color: #904141;
+}
+.page-cart-table-left-center-text-error p {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.page-cart-table-left-bottom {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #dedede;
+}
+textarea#exampleFormControlTextarea1.form-coupon {
+  height: 50px;
+  width: 100%;
+  border: none;
+  padding: 10px 20px;
+}
+.page-cart-table-left-bottom-price {
+  display: flex;
+  justify-content: space-between;
+}
+.page-cart-gift-wrap p a {
+  color: #111111;
+}
+.page-cart-gift-wrap {
+  margin-top: 20px;
+}
+.page-cart-gift-wrap button {
+  padding: 10px;
+  background-color: #111111;
+  border-radius: 20px;
+  width: 200px;
+}
+.page-cart-gift-wrap button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.page-cart-note-title {
+  margin-top: 20px;
+}
+.input-text {
+  margin-top: 10px;
+}
+.page-cart-note-text-top {
+  display: flex;
+  margin-top: 20px;
+}
+.page-cart-note-text-top img {
+  width: 16px;
+  height: 19px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+p.page-cart-table-left-bottom-price-title {
+  font-weight: 500;
+  font-size: 20px;
+}
+.page-cart-table-left-bottom-button {
+  margin-top: 20px;
+}
+.page-cart-table-left-bottom-button button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #111111;
+  color: #ffffff;
+  border-radius: 25px;
+  width: 100%;
+}
